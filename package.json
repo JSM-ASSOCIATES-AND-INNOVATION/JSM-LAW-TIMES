@@ -1,0 +1,15 @@
+{
+    "name": "mls-journal",
+    "version": "1.0.0",
+    "description": "MLS Journal Project",
+    "scripts": {
+        "start": "npm start --prefix frontend",
+        "server": "npm start --prefix backend",
+        "dev": "npm start --prefix frontend & npm start --prefix backend"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react-quill": "^2.0.0-beta.4"
+    }
+}

@@ -1,0 +1,107 @@
+.hero {
+  min-height: 71vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 140px 20px 80px;
+  margin-top: -30px;
+}
+
+.hero-title {
+  margin-top: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero h1 {
+  font-size: 74px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.hero h1 span {
+  color: #f5b400;
+}
+
+.hero p {
+  margin-top: 20px;
+  max-width: 720px;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.hero .hero-subtitle {
+  color: grey;
+  font-size: 18px;   /* realistic size */
+  max-width: 700px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.hero-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 18px;
+}
+.primary {
+  background-color: #f5b400;
+  color: #000;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 8px 20px rgba(245, 180, 0, 0.45);
+}  
+
+
+.secondary {
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.secondary:hover {
+  background-color: black;
+  color: #f5b400;
+}
+
+/* ======================
+   DARK MODE
+====================== */
+[data-theme="dark"] .hero {
+  background-color: #121212;
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .hero h1 {
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .hero h1 span {
+  color: #f5b400;
+}
+
+[data-theme="dark"] .hero p,
+[data-theme="dark"] .hero-subtitle {
+  color: #9ca3af;
+}
+
+[data-theme="dark"] .secondary {
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+}
+
+[data-theme="dark"] .secondary:hover {
+  background-color: #e5e7eb;
+  color: #000;
+}

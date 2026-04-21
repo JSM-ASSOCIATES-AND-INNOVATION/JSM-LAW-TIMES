@@ -1,0 +1,38 @@
+.publications {
+max-width: 900px;
+margin: 60px auto;
+}
+
+
+.publication-card {
+border-bottom: 1px solid #ddd;
+padding: 20px 0;
+}
+
+
+.publication-card h3 {
+margin: 5px 0;
+}
+
+
+.publication-card button {
+background: none;
+border: none;
+color: #f5b400;
+font-weight: bold;
+}
+
+/* ======================
+   DARK MODE
+====================== */
+[data-theme="dark"] .publications {
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .publication-card {
+  border-bottom-color: #3a3a3a;
+}
+
+[data-theme="dark"] .publication-card h3 {
+  color: #e5e7eb;
+}

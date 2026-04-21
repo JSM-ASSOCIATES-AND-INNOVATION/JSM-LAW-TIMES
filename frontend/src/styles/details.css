@@ -1,0 +1,28 @@
+.details {
+max-width: 800px;
+margin: 80px auto;
+}
+
+
+.details h1 {
+margin: 10px 0;
+}
+
+
+.back {
+display: inline-block;
+margin-top: 30px;
+color: #f5b400;
+font-weight: bold;
+}
+
+/* ======================
+   DARK MODE
+====================== */
+[data-theme="dark"] .details {
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .details h1 {
+  color: #e5e7eb;
+}
